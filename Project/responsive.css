@@ -1,0 +1,225 @@
+@media screen and (max-width:64em) {
+
+}
+@media screen and (min-width:46.25em) and (max-width:63.9375em) {
+    #slider {
+        margin-top: 43px;
+    }
+    #content .infor-ticket {
+        margin: auto;
+        margin-left : 105px;
+        margin-right: 105px;
+    }
+    #content .list-item {
+        margin-left: 104px;
+    }
+    #content .list-item-bottom {
+        display: flex;
+        width: auto;
+        margin-right: -46px;
+        margin-bottom: 3px;
+    }
+    #content .text-image {
+        padding-right: 225px;
+    }
+    #content .list-item-bottom #out {
+        margin-left: -2px;
+    }
+    .contact-section .name-contact {
+        margin-top: 14px;
+        margin-bottom: 4px;
+    }   
+    .contact-section .text-contact {
+        margin-top: 14px;
+        margin-left: 72px;
+    }
+    .contact-section .message-contact {
+        margin-top: -24px;
+        margin-left: 72px;
+        width: 559px;
+    }
+    .contact-section .send-contact {
+        margin-right: 86px;
+    }
+}
+@media screen and (max-width:46.1875em) {
+    #overall {
+        overflow: hidden;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-button {
+        display: none;
+    }
+    #header .menu-button {
+        padding: 12px;
+        font-size: 18px;
+        float: right;
+        display: initial;
+        color: #fff;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header .menu-button:hover {
+        color: #000;
+        height: 46px;
+        background-color: #ccc;
+        /* cursor: pointer; */
+    }
+    #slider {
+        margin-top: 46px;
+    }
+    #nav {
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    #nav li > a {
+        display: block;
+    }
+    #nav .subnav {
+        position: initial;
+        /* padding-left: 65px; */
+        background-color: rgb(97, 92, 92);
+        /* display: inline-block; */
+    }   
+    #nav .subnav li:hover a {
+        color: #fff;
+    }
+    #nav .subnav a {
+        padding-left: 74px;
+    }
+    #content .tour-shirt {
+        max-height: 3000px;
+        padding-bottom: 100px;
+    }
+    /* #content .pattern-shirt {
+        text-align: center!important;
+    } */
+    #content .shirt-item {
+        padding-top: 36px;
+        float: initial;
+        width: 100%;
+    }
+    #content .infor-ticket {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    #content .list-item {
+        margin-top: 32px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #content .list-item-bottom {
+        float: initial;
+        width: 91.33333%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 8px;
+    }
+    #content .list-item-bottom #out {
+        margin-right: -0.2px;
+    }
+    #content .item-image {
+        width: 100%;
+    }
+    #content .text-image {
+        margin-bottom: 12px;
+    }
+    #content .button-sale {
+        padding: 12px 26px;
+    }
+    #content .row-1 {
+        margin-left: -16px;
+        /* width: 96%; */
+    }
+    #content .row-2 {
+        margin-left: -16px;
+        /* width: 96%; */
+    }
+    .contact-section .text-contact {
+        margin-top: 20px;
+        line-height: 2;
+        width: auto;
+        margin-left: -16px;
+    }
+    .contact-section .name-contact {
+        padding: 15px;
+        width: 94%;
+    }
+    .contact-section .email-contact {
+        padding: 15px;
+        width: 94%;
+    }
+    .contact-section .message-contact {
+        /* padding: 15px; */
+        height: 60px;
+        width: 94%;
+    }
+    .contact-section .send-contact {
+        padding: 11px;
+        margin-right: 24px;
+    }
+    #footer a {
+        margin-right: 10px;
+        padding: 8px;
+    }
+    #footer .host-create .return {
+        margin-left: 8px;
+    }
+    .login-container .login-email {
+        margin: 0px;
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .login-container #pwd {
+        margin: 0px;    
+        width: 100%;
+    }
+    .login-container .sub a {
+        margin-left: 222px;
+    }
+    .login-container .show-password {
+        margin-left: -444px;
+        font-size: 12px;
+    }
+    .contact-login ul {
+        margin: 24px 0;
+    }
+    .login-container .login-submit {
+        margin: 0 64px;
+    }
+    .login-footer p {
+        font-size: 13px;
+        margin: 40px 0;
+    }
+    .error {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    .register-image {
+        display: none;
+    }
+    .register .register-left {
+        width: 100%;
+    }
+    .register-footer p {
+        margin-left: -24px;
+    }
+    .noti-container, 
+    .noti-container, 
+    .noti-error-container {
+        display: none!important;
+    }
+}
+
+
+
+
+
