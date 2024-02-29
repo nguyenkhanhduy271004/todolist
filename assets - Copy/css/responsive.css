@@ -1,0 +1,122 @@
+@media screen and (min-width:740px) {
+    .hide-on-fullscreen-tablet {
+        display: none;
+    }
+}
+@media screen and (max-width:1023px) {
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+    .header {
+        /* position: fixed; */
+    }
+    .header__sort-bar {
+        /* position: fixed; */
+    }
+}
+@media screen and (min-width:740px) and (max-width:1023px)  {
+    .hide-onntablet {
+        display: none;
+    } 
+    .header {
+        height: 80px;
+        position: fixed;
+        width: 100%;
+    }
+    .header-search {
+        height: 80px;
+    }
+    .header-search__stroller {
+        width: 120px;
+    }
+    .header-search__search {
+        margin-left: 12px;
+    }
+    .header__sort-bar {
+        display: flex;
+    }
+    .grid__row {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding-top: 66px;
+    }
+    .grid__col-left {
+        display: none;
+        width: 0;
+    }
+    .grid__col-right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .grid__col-left-2 {
+        width: 33.3334%;
+    }
+    .home-product {
+        /* display: none; */
+    }
+}
+@media screen and (max-width:739px) {
+    /* .hide-on-mobile */
+    .show-on-mobile {
+        display: block;
+    }
+    .hide-on-mobile {
+        display: none;
+    }
+    .header {
+        height: 70px;
+        position: fixed;
+        width: 100%;
+    }
+    .header-search {
+        margin-left: 18px;
+        flex: 1;
+    }
+    .header-search__logo-search {
+        display: flex;
+        flex: 1;
+    }
+    .header-search__stroller {
+        width: 0;
+        right: -60px;
+        flex: 1;
+    }
+    .header-search__img-cart {
+        position: fixed;
+        width: 100%;
+        top: 10%;
+        left: 0;
+        right: 0;
+    }
+    .header-stroller__item {
+        padding: 0 30px;
+        justify-content: space-between;
+    }
+    .header__sort-bar {
+        display: flex;
+    }
+    .grid__row {
+        width: 100%;
+        padding-top: 60px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .grid__col-left {
+        display: none;
+        width: 0;
+    }
+    .grid__col-right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .grid__col-left-2 {
+        width: 50%;
+    }
+    .pagination-item {
+        margin: 36px 18px;
+    }
+    .home-product {
+        /* display: none; */
+    }
+}

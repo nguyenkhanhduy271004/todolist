@@ -5,20 +5,24 @@
     --primary-color: #1b1621;
     --primary-color-1: #cc7e06;
 }
+
 * {
     box-sizing: inherit;
 }
+
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6rem;
     box-sizing: border-box;
 }
+
 .wide {
     width: 1200px;
     max-width: 100%;
     margin: 0 auto;
 }
+
 .grid__row {
     display: flex;
     flex-wrap: wrap;
@@ -26,17 +30,20 @@ html {
     margin-left: -12px;
     margin-right: -12px;
 }
+
 .grid__col-left {
     padding-left: 5px;
     padding-right: 5px;
-        
+
 }
+
 .grid__col-right {
     margin-left: 80px;
     padding-left: 5px;
     padding-right: 5px;
     width: 83.3334%;
 }
+
 .grid__col-left-2 {
     padding-left: 5px;
     padding-right: 5px;
@@ -48,14 +55,17 @@ html {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
 }
+
 @keyframes grow {
     from {
         transform: scale(0);
     }
+
     to {
         transform: scale(1);
     }
